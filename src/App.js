@@ -4,6 +4,8 @@ import {Variable,Obj,Array,ArrayOfObjects,ComplexData} from './components/q1/ind
 
 import Export  from './components/q2';
 
+import {Post,User,UserWithPost} from './components/q3/index'
+
 
 
 
@@ -17,6 +19,8 @@ function App() {
     <ComplexData />
 
 <Export />
+
+<UserWithPost />
     </div>
   );
 }
