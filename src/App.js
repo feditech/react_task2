@@ -1,6 +1,6 @@
 
 import './App.css';
-import {Variable,Obj,Array,ArrayOfObject} from './components/q1/index'
+import {Variable,Obj,Array,ArrayOfObject,ComplexData} from './components/q1/index'
 
 
 
@@ -13,6 +13,7 @@ function App() {
     <Obj />
     <Array />
     <ArrayOfObject />
+    <ComplexData />
 
     </div>
   );
