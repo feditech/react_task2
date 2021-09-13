@@ -4,7 +4,7 @@ function Obj(){
     return(
         <div>
 
-        <h1>OBJECT===== {obj.name}</h1>
+        <h4>OBJECT===== {obj.name}</h4>
         </div>
     )
 }

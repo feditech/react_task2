@@ -2,7 +2,7 @@ function Array(){
     const data =["we","are","united"]
         return(
             <div>
-                <h1>ARRAY==== {data}</h1>
+                <h4>ARRAY==== {data}</h4>
             </div>
         )
     }
