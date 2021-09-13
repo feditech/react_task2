@@ -1,12 +1,19 @@
-import logo from './logo.svg';
+
 import './App.css';
+import {Variable,Obj,Array,ArrayOfObject} from './components/q1/index'
+
+
+
+
 
 function App() {
   return (
     <div className="App">
-     <h1> Header</h1>
-     <p> Body</p>
-     <h4>Footer</h4>
+    <Variable />
+    <Obj />
+    <Array />
+    <ArrayOfObject />
+
     </div>
   );
 }
